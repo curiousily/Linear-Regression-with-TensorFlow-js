@@ -20,7 +20,7 @@ Papa.parsePromise = function(file) {
 
 const prepareData = async () => {
   const csv = await Papa.parsePromise(
-    "https://raw.githubusercontent.com/curiousily/Simple-Neural-Network-with-TensorFlow-js/master/src/data/housing.csv"
+    "https://raw.githubusercontent.com/curiousily/Linear-Regression-with-TensorFlow-js/master/src/data/housing.csv"
   );
 
   return csv.data;
@@ -271,7 +271,7 @@ const run = async () => {
   const slmPreds = simpleLinearModel.predict(xTestSimple).dataSync();
   const lmPreds = linearModel.predict(xTest).dataSync();
 
-  // renderPredictions(trueValues, slmPreds, lmPreds);
+  renderPredictions(trueValues, slmPreds, lmPreds);
 };
 
 if (document.readyState !== "loading") {
