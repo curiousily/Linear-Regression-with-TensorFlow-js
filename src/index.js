@@ -271,7 +271,7 @@ const run = async () => {
   const slmPreds = simpleLinearModel.predict(xTestSimple).dataSync();
   const lmPreds = linearModel.predict(xTest).dataSync();
 
-  renderPredictions(trueValues, slmPreds, lmPreds);
+  // renderPredictions(trueValues, slmPreds, lmPreds);
 };
 
 if (document.readyState !== "loading") {
