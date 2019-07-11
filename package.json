@@ -1,5 +1,5 @@
 {
-  "name": "parcel-sandbox",
+  "name": "linear-regression-with-tensorflow-js",
   "version": "1.0.0",
   "description": "Simple Parcel Sandbox",
   "main": "index.html",
@@ -17,5 +17,6 @@
   "devDependencies": {
     "@babel/core": "7.2.0",
     "parcel-bundler": "^1.6.1"
-  }
+  },
+  "keywords": []
 }
